@@ -1,0 +1,19 @@
+.component {
+  width: 500px;
+  height: 50vh;
+  .input {  
+    padding: 0.5rem 1rem;
+  }
+  .result_component {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .result {
+      text-decoration: underline;
+      font-weight: 700;
+      font-size: larger;
+      color: blue;
+    }
+  }
+}
