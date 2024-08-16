@@ -1,0 +1,13 @@
+.btn_rounded {
+  height: 32px;
+  width: 32px;
+  border-radius: 6px;
+
+  background-color: rgb(195, 54, 54);
+}
+.btn_circle {
+  background-color: yellowgreen;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}

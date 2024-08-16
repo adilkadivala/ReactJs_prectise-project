@@ -1,0 +1,4 @@
+1. useEffect
+
+1.once Componenet is shown in UI, I will call useEffect;
+2.you can run some code, when a veriable data change;  

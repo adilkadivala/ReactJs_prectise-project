@@ -1,10 +1,10 @@
 import "./App.css";
-import Calculator from "./components/calculator/components";
+import WordGuess from "./components/word-guessing-game";
 
 function App() {
   return (
     <>
-      <Calculator />
+      <WordGuess />
     </>
   );
 }

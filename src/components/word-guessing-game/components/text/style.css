@@ -1,0 +1,12 @@
+.text_answer {
+  font-size: 20px;
+  color: red;
+}
+.text_question {
+  font-size: 30px;
+  color: yellow;
+}
+.text_score {
+  font-size: 50px;
+  color: blue;
+}
