@@ -9,8 +9,6 @@ const Controller = ({
   showNext,
   showPrevious,
 } = {}) => {
-  console.log(question, "controller");
-
   return (
     <div className="controller">
       {showPrevious && (

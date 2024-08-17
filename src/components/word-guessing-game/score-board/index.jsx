@@ -2,11 +2,11 @@ import "./style.css";
 import Tag from "../components/tag";
 import Text from "../components/text";
 
-const ScoreBoard = () => {
+const ScoreBoard = ({ score }) => {
   return (
     <div>
       <Tag label={"Score"} />
-      <Text type={Text.StyleType.SCORE} text="23" />
+      <Text type={Text.StyleType.SCORE} text={score} />
     </div>
   );
 };

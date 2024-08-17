@@ -1,11 +1,9 @@
 import { useState } from "react";
 import "./style.css";
 
-const Input = ({ onInput = () => {} } = {}) => {
-  const [value, setValue] = useState();
+const Input = ({ onInput = () => {}, value } = {}) => {
   function handleInput(e) {
     onInput(e.target.value);
-    setValue(e.target.value);
   }
   return <input type="text" value={value} onInput={handleInput} />;
 };

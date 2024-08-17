@@ -1,19 +1,28 @@
 import "./style.css";
-import Button from "../../components/button";
+import Button from "../components/button";
 
-const KeyBoard = () => {
+const KeyBoard = ({ handleKeypress }) => {
   const arr = [...new Array(26)];
 
   let start = 65;
 
+  function handleClick(key) {
+    return () => {
+      handleKeypress(key);
+    };
+  }
+
   return (
     <div className="key_board">
       {arr.map((_, index) => {
+        const currentKey = String.fromCharCode(start++);
+
         return (
           <Button
             key={index}
-            label={String.fromCharCode(start++)}
+            label={currentKey}
             type={Button.Type.ROUNDED}
+            onClick={handleClick(currentKey)}
           />
         );
       })}

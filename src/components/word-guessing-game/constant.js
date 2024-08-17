@@ -1,4 +1,4 @@
-export const Question = [
+export const Questions = [
   {
     id: "q1",
     hint: "A_P_E",
