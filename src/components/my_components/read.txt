@@ -1,0 +1,15 @@
+this is for learning purpose, 
+
+why utils file...
+
+==>  we have some logic in component which are specific for just it, so we create a utils.js and we'll write logic in util and export it from this file to our desired component 
+
+
+why constant file...
+
+if we have some defined constant in our component..
+such as  
+
+const DEFAULT_AGE = 18; 
+
+then such kind of constant we'll write in this file 
