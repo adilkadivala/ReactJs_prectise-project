@@ -1,9 +1,9 @@
 // import "./App.css";
 // import WordGuess from "./components/word-guessing-game";
 import { useAPI_JSON } from "./components/API_JSON";
-const api_json = "https://dummyjson.com/users";
 
 function App() {
+  const api_json = "https://dummyjson.com/users";
   // let num1 = useRef();
   // let num2 = useRef();
 
