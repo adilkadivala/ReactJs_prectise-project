@@ -17,7 +17,8 @@ function useAPI_JSON({ url }) {
         setData(d.users);
       })
       .catch((err) => {
-        setError(err);
+        console.error("Error fetching data:", err);
+        setError("An error occurred. Please try again later.");
       })
       .finally(() => {
         setIsLoading(false);

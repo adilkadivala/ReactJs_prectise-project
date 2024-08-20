@@ -7,11 +7,11 @@ function App() {
   // let num1 = useRef();
   // let num2 = useRef();
 
-  const { data, error, isLoading } = useAPI_JSON(api_json);
+  const { data, error, isLoading } = useAPI_JSON({ url: api_json });
   // let res = 0;
 
   if (error) {
-    return <div>{error}</div>;
+    return <div>{error.message}</div>;
   }
   if (!data) {
     return <div>No any data</div>;
